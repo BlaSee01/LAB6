@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void counting(int x){
-    for(int i = x ; i > 0 ; i--){
+    for(int i = x ; i >= 0 ; i--){
         printf("%d " , i);
     }
 }
